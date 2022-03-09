@@ -1,9 +1,9 @@
 if [ -d world ]
 then
 	rm -R world
-	echo "Folder exits"
+	echo "Deleted sucessfully"
 else
-	echo "Folder not exits"
+	echo "File is created"
 	mkdir world
 fi
 
